@@ -3,7 +3,7 @@ import RestaurantCards from "./RestaurantCards";
 
 const Restaurant = () => {
   return (
-    <section className="py-16">
+    <section className="py-16" id="Restaurant">
       {/* heading section */}
       <div className="text-xl sm:text-2xl text-center font-extrabold">
         Avaliable Restaurant Nearby Area

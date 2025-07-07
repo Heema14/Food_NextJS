@@ -3,7 +3,7 @@ import FeatureCards from "./FeatureCards";
 
 const Feature = () => {
   return (
-    <section className="py-16">
+    <section className="py-16" id="Features">
       <h1 className="text-xl sm:text-2xl text-center font-extrabold">
         Meet our Qualty Features
       </h1>

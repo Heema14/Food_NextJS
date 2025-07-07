@@ -21,12 +21,12 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
 
       {/* links */}
       <div
-        className={`text-white fixed ${navOpen} justify-center flex flex-col h-full transition-all duration-500 transform delay-300 w-[80%] sm:w-[60%] bg-blue-950 space-y-6 z-[1050]`}
+        className={`bg-[url(/images/r1.jpg)] bg-cover bg-blend-hard-light opacity-90 text-white fixed ${navOpen} justify-center flex flex-col h-full transition-all duration-500 transform delay-300 w-[80%] sm:w-[60%] bg-blue-950 space-y-6 z-[1050]`}
       >
         {Navlinks.map((link) => {
           return (
-            <Link key={link.id} href={link.url}>
-              <p className="text-white w-fit text-[20px] ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]">
+            <Link key={link.id} href={link.url} className="navHover ">
+              <p className="text-white relative hover:text-yellow-400 w-fit text-[20px] ml-12 pb-1 sm:text-[30px]">
                 {link.label}
               </p>
             </Link>

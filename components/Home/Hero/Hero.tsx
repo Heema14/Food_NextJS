@@ -6,7 +6,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen flex justify-center flex-col">
+    <section
+      className="relative w-full h-screen flex justify-center flex-col"
+      id="HeroSection"
+    >
       <div className="container mx-auto grid items-center grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Text content */}
         <div>

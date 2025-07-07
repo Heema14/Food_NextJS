@@ -11,7 +11,7 @@ import SoiclaM from "./SoiclaM";
 
 const Footer = () => {
   return (
-    <footer className="pt-16 pb-8 bg-gray-800 px-2.5 sm:px-0">
+    <footer className="pt-16 pb-8 bg-gray-800 px-2.5 sm:px-0" id="Footer">
       <div className="mx-auto container items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         <div>
           <div className="flex items-center space-x-2">
