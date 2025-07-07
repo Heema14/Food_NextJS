@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+    .footer_link {
+        @apply text-white font-medium cursor-pointer text-sm hover:text-cyan-300 w-fit
+    }
+}
+
+/* for categoer */
+#Categoer .textCard:hover> :not(:hover) {
+    opacity: 0.5;
+    transform: scale(0.8);
+    filter: blur(2px);
+}
